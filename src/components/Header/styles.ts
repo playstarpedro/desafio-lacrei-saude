@@ -1,7 +1,31 @@
 import styled from "styled-components"
 
+import {theme} from "../../styles/theme";
+
 export const Header = styled.header`
-    padding: 1rem;
-    color: white;
-    background-color: rgb(0, 119, 86);
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    padding: 0px 7.625rem;
+    color: ${theme.colors.greenAccent};
+    background: ${theme.colors.gradientHeader};
+
+    img {
+        max-width: 100%;
+    };
+
+     .logo-lacrei-mobile {
+        display: none;
+     };
+
+     @media screen and (max-width: 767px) { 
+        .logo-lacrei-desktop {
+            display: none;
+        }
+
+        .logo-lacrei-mobile {
+        display: block;
+     };
+     }
 `
