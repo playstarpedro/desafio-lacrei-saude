@@ -4,6 +4,7 @@ export const theme = {
     lightDisabled: "#BFBFBF",
     disabled: "#515151",
     default: "#131313",
+    lightGreenHover: "#DFF2ED",
     greenHover: "#007756",
     greenAccent: "#018762",
     greenSuccess: "#298A46",
