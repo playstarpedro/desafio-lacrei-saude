@@ -1,10 +1,9 @@
-import { Header as StyledHeader } from "./styles";
 import Image from "next/image";
+
+import { Header as StyledHeader } from "./styles";
 
 import logoMobile from "../../assets/images/logo_lacrei_mobile.png";
 import logoDesktop from "../../assets/images/logo_lacrei_desktop.png";
-
-// TODO: Fix png's to svg's
 
 const Header: React.FC = () => {
   return (
@@ -12,13 +11,14 @@ const Header: React.FC = () => {
       <a href="https://lacreisaude.com.br/">
         <Image
           src={logoDesktop}
-          className="logo-lacrei-desktop"
           alt="logo lacrei saúde"
+          className="logo-lacrei-desktop"
         />
         <Image
+          width={134}
           src={logoMobile}
-          className="logo-lacrei-mobile"
           alt="logo lacrei saúde"
+          className="logo-lacrei-mobile"
         />
       </a>
     </StyledHeader>

@@ -12,10 +12,10 @@ export const theme = {
     darkBlueInfo: "#28588A",
     redError: "#BC1C1C",
     warning: "#963D1D",
-    gradientRosa: "linear-gradient(90deg, #DF1098 0%, #BA17E2 100%)",
+    gradientPink: "linear-gradient(90deg, #DF1098 0%, #BA17E2 100%)",
     gradientLacrei: "linear-gradient(90deg, #018383 0%, #014687 100%)",
     gradientHeader: "linear-gradient(#F5FFFB 31.04%, #FFFFFF 100%)",
-    gradientSimbolo: "linear-gradient(90deg, #008392 0%, #00BC86 100%)",
+    gradientSymbol: "linear-gradient(90deg, #008392 0%, #00BC86 100%)",
   },
 };
 

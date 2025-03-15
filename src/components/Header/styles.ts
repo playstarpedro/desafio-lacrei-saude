@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-import {theme} from "../../styles/theme";
+import { theme } from "../../styles/theme";
 
 export const Header = styled.header`
     width: 100%;
@@ -20,6 +20,8 @@ export const Header = styled.header`
      };
 
      @media screen and (max-width: 767px) { 
+        padding: 1.5rem 2.4rem;
+
         .logo-lacrei-desktop {
             display: none;
         }

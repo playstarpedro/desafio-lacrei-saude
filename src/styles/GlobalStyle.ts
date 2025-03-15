@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-import { Nunito } from 'next/font/google';
+//TODO: Fix the font-family
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -8,11 +8,6 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
-  }
-
-  body {
-    background-color: #f5f5f5;
-    color: #333;
   }
 `;
 
